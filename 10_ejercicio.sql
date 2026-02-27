@@ -1,0 +1,1 @@
+SELECT nombre, genero, fecha_nacimiento FROM clientes WHERE genero = 'F' ORDER BY fecha_nacimiento ASC;

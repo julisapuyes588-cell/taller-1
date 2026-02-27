@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS total_lineas_ventas FROM detalle_ventas;

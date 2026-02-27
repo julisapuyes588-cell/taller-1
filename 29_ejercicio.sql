@@ -1,0 +1,1 @@
+SELECT (SELECT SUM(total_venta) FROM ventas WHERE cupon_usado = 'ULTIMO_SUSPIRO') * 100.0 / (SELECT SUM(total_venta) FROM ventas) AS porcentaje_cupon;

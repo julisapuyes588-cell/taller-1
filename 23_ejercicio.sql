@@ -1,0 +1,1 @@
+SELECT p.nombre, SUM(dv.cantidad * dv.precio_unitario) AS ingresos FROM detalle_ventas dv JOIN productos p ON dv.id_producto = p.id_producto GROUP BY dv.id_producto ORDER BY ingresos DESC LIMIT 5;

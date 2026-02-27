@@ -1,0 +1,1 @@
+SELECT SUM(total_venta) AS total_historico FROM ventas;

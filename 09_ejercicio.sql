@@ -1,0 +1,1 @@
+SELECT MAX(total_venta) AS venta_mayor FROM ventas;
